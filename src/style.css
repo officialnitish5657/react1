@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#root {
+    background-color: black;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 6vh; */
+    color: transparent;
+    top: 5vh;
+    background: linear-gradient(45deg,orange,red,yellow);
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+h1::selection{
+    background: linear-gradient(45deg,orange,red,yellow);
+
+}
